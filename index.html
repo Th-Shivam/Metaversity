@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Metaversity - Your gateway to exploring, learning, and innovating in the Metaverse">
+    <meta name="keywords" content="metaverse, VR, AR, blockchain, Web3, technology club">
+    <title>Metaversity - Step Into the Future</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Metaversity - Step Into the Future">
+    <meta property="og:description" content="Join the future of digital innovation with Metaversity">
+    <meta property="og:image" content="assets/og-image.jpg">
+    
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="assets/hero-bg.webp" as="image">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" data-sticky="true">
+        <div class="header-container">
+            <nav class="nav-container" aria-label="Main navigation">
+                <div class="logo" role="banner">
+                    <img src="assets/logo.svg" alt="Metaversity Logo" width="48" height="48">
+                    <span class="logo-text gradient-text">Metaversity</span>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="#home" role="menuitem" class="active">Home</a></li>
+                    <li role="none"><a href="#about" role="menuitem">About Us</a></li>
+                    <li role="none"><a href="#events" role="menuitem">Events</a></li>
+                    <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+                    <li role="none"><a href="#join" class="join-btn pulse-animation" role="menuitem">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero parallax-section">
+            <div class="hero-container">
+                <div class="hero-content fade-in">
+                    <h1 class="gradient-text">Step Into the Future with Metaversity</h1>
+                    <p class="hero-description">Explore the boundless possibilities of the Metaverse. Join a thriving community of innovators, creators, and visionaries shaping the digital future.</p>
+                    <div class="cta-group">
+                        <a href="#join" class="cta-button primary-btn">Join Us Now</a>
+                        <a href="#about" class="cta-button secondary-btn">Learn More</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Events</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-graphics">
+                    <img src="assets/metalogo.png" alt="Metaverse Logo" class="hero-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h2 class="section-title gradient-text">About Metaversity</h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <div class="mission-card card-hover">
+                            <div class="mission-text">
+                                <p class="lead-text">We are a dynamic community of dreamers, innovators, and creators shaping the future of the Metaverse.</p>
+                                <p>Our mission is to explore the limitless possibilities of emerging technologies like Virtual Reality (VR), Augmented Reality (AR), Blockchain, Artificial Intelligence (AI), and Web3.</p>
+                            </div>
+                            
+                            <div class="benefits-grid">
+                                <div class="benefit-item">
+                                    <h4 class="gradient-text">Lead Projects</h4>
+                                    <p>Lead groundbreaking projects and host impactful events that redefine digital interaction.</p>
+                                </div>
+                                <div class="benefit-item">
+                                    <h4 class="gradient-text">Learn & Grow</h4>
+                                    <p>Access cutting-edge resources and collaborate with industry experts to expand your knowledge.</p>
+                                </div>
+                                <div class="benefit-item">
+                                    <h4 class="gradient-text">Build Network</h4>
+                                    <p>Connect with like-minded individuals and build lasting relationships in the tech community.</p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="focus-areas">
+                        <h3>Areas of Focus</h3>
+                        <div class="focus-grid">
+                            <div class="focus-card card-hover">
+                                <div class="card-icon">
+                                    <img src="assets/icons/vr-ar.svg" alt="" aria-hidden="true">
+                                </div>
+                                <h4>VR/AR Development</h4>
+                                <p>Dive into immersive technologies, learn VR/AR development using Unity and Unreal Engine, and create engaging virtual experiences that push the boundaries of reality.</p>
+                            </div>
+                            
+                            <div class="focus-card card-hover">
+                                <div class="card-icon">
+                                    <img src="assets/icons/blockchain.svg" alt="" aria-hidden="true">
+                                </div>
+                                <h4>Blockchain & NFTs</h4>
+                                <p>Explore blockchain technology, smart contracts, and NFT development. Learn to create decentralized applications and understand the future of digital ownership.</p>
+                            </div>
+
+                            <div class="focus-card card-hover">
+                                <div class="card-icon">
+                                    <img src="assets/icons/web3.svg" alt="" aria-hidden="true">
+                                </div>
+                                <h4>Web3 Innovation</h4>
+                                <p>Build the future of the internet with Web3 technologies. Develop decentralized platforms, explore cryptocurrency integration, and create innovative DeFi solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="events section-padding">
+            <div class="container">
+                <h2 class="section-title gradient-text">Upcoming Events</h2>
+                <div class="events-grid">
+                    <article class="event-card card-hover">
+                        <img src="assets/events/vr-workshop.jpg" alt="VR Workshop" class="event-image">
+                        <div class="event-content">
+                            <p class="event-date">March 15, 2024</p>
+                            <h3 class="event-title">VR Development Workshop</h3>
+                            <p class="event-description">Learn the fundamentals of VR development using Unity and OpenXR. Perfect for beginners!</p>
+                            <a href="#" class="event-link">Learn More →</a>
+                        </div>
+                    </article>
+
+                    <article class="event-card card-hover">
+                        <img src="assets/events/blockchain.jpg" alt="Blockchain Hackathon" class="event-image">
+                        <div class="event-content">
+                            <p class="event-date">April 2-4, 2024</p>
+                            <h3 class="event-title">Web3 Hackathon</h3>
+                            <p class="event-description">48-hour hackathon focused on building decentralized applications. $5000 in prizes!</p>
+                            <a href="#" class="event-link">Register Now →</a>
+                        </div>
+                    </article>
+
+                    <article class="event-card card-hover">
+                        <img src="assets/events/ai-conference.jpg" alt="AI Conference" class="event-image">
+                        <div class="event-content">
+                            <p class="event-date">May 20, 2024</p>
+                            <h3 class="event-title">AI in the Metaverse</h3>
+                            <p class="event-description">Explore how artificial intelligence is shaping the future of virtual worlds.</p>
+                            <a href="#" class="event-link">Save Your Spot →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-wrapper">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name" class="visually-hidden">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" 
+                                       required pattern="[A-Za-z\s]{2,}" 
+                                       data-error="Please enter a valid name">
+                                <span class="error-message"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="visually-hidden">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" 
+                                       required
+                                       data-error="Please enter a valid email">
+                                <span class="error-message"></span>
+                            </div>
+
+                            <div class="form-field select-wrapper">
+                                <select id="interest" name="interest" required>
+                                    <option value="" disabled selected>I'm interested in...</option>
+                                    <option value="vr-ar">VR/AR Development</option>
+                                    <option value="blockchain">Blockchain & NFTs</option>
+                                    <option value="web3">Web3 Innovation</option>
+                                </select>
+                                <div class="field-highlight"></div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message" class="visually-hidden">Message</label>
+                                <textarea id="message" name="message" placeholder="Your Message (optional)" rows="4"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-footer">
+                            <button type="submit" class="submit-btn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-icon">→</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3>Connect With Us</h3>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Join us on Discord">
+                                        <img src="assets/icons/discord.svg" alt="">
+                                        Discord Community
+                                    </a>
+                                </li>
+                                <!-- More social links -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="brand-content">
+                            <img src="assets/logo.svg" alt="Metaversity Logo" class="footer-logo">
+                            <h3 class="gradient-text">Metaversity</h3>
+                            <p class="brand-description">Shaping the future of digital interaction through immersive technologies and innovative learning.</p>
+                        </div>
+                        <div class="newsletter">
+                            <h4>Stay Updated</h4>
+                            <form class="newsletter-form">
+                                <div class="form-field">
+                                    <input type="email" placeholder="Enter your email" required>
+                                    <button type="submit" class="subscribe-btn">
+                                        <span>Subscribe</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="footer-links-group">
+                        <div class="footer-links">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#events">Events</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#join">Join Community</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Tutorials</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links">
+                            <h4>Connect</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                                    <img src="assets/icons/discord.svg" alt="">
+                                </a>
+                                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                    <img src="assets/icons/twitter.svg" alt="">
+                                </a>
+                                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                    <img src="assets/icons/linkedin.svg" alt="">
+                                </a>
+                                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                    <img src="assets/icons/github.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-info">
+                        <p class="copyright">&copy; 2024 Metaversity. All rights reserved.</p>
+                        <p class="creator-tag">Crafted with <span class="heart">♥</span> by <span class="creator-name gradient-text">THAKUR SHIVAM SINGH</span></p>
+                    </div>
+                    <div class="footer-meta-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="js/three.min.js"></script>
+    <script type="module" src="js/gsap.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/animations.js"></script>
+</body>
+</html>
